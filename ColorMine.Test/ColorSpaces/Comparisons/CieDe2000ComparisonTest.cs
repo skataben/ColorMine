@@ -12,12 +12,12 @@ namespace ColorMine.Test.ColorSpaces.Comparisons
         [TestClass]
         public class Compare
         {
-            private IDictionary<Tuple<ILab, ILab>, double> TestData { get; set; }
+            private IDictionary<KeyValuePair<ILab, ILab>, double> TestData { get; set; }
 
             [TestInitialize]
             public void Initialize()
             {
-                TestData = new Dictionary<Tuple<ILab, ILab>, double>();
+                TestData = new Dictionary<KeyValuePair<ILab, ILab>, double>();
                 var reader =
                     new System.IO.StreamReader(AppDomain.CurrentDomain.BaseDirectory +
                                                @"/TestData/CieDe2000TestData.dat");
@@ -41,7 +41,7 @@ namespace ColorMine.Test.ColorSpaces.Comparisons
                             A = Double.Parse(parts[4]),
                             B = Double.Parse(parts[5])
                         };
-                    var input = new Tuple<ILab, ILab>(a, b);
+                    var input = new KeyValuePair<ILab, ILab>(a, b);
                     var expected = Double.Parse(parts[6]);
                     TestData[input] = expected;
                 }
@@ -59,7 +59,7 @@ namespace ColorMine.Test.ColorSpaces.Comparisons
             {
                 foreach (var test in TestData)
                 {
-                    ReturnsExpectedValueForKnownInput(test.Value, test.Key.Item1, test.Key.Item2);
+                    ReturnsExpectedValueForKnownInput(test.Value, test.Key.Key, test.Key.Value);
                 }
             }
         }
