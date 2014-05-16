@@ -7,6 +7,8 @@ namespace ColorMine.Test.ColorSpaces.Comparisons
 {
 #if NET35
 	public class CmcComparisonTestNet35
+#elif NET40
+	public class CmcComparisonTestNet40
 #else
     public class CmcComparisonTest
 #endif

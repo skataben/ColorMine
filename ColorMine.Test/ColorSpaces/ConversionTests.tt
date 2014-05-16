@@ -18,10 +18,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ColorMine.Test.ColorSpaces
 {
-
 <# foreach (XmlNode fromSpace in colors) { var fromName = fromSpace.Name; #>
 #if NET35
 	public class <#= fromName #>TestNet35
+#elif NET40
+	public class <#= fromName #>TestNet40
 #else
 	public class <#= fromName #>Test
 #endif

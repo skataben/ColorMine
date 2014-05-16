@@ -1,21 +1,13 @@
-﻿
-
-
-
-
-
-
-
-
-//Note: This is a generated file.
+﻿//Note: This is a generated file.
 using ColorMine.ColorSpaces;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ColorMine.Test.ColorSpaces
 {
-
 #if NET35
 	public class RgbTestNet35
+#elif NET40
+	public class RgbTestNet40
 #else
 	public class RgbTest
 #endif
@@ -23,7 +15,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void WhiteRgbToCmy()
@@ -33,7 +24,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToCmyk()
@@ -43,7 +33,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToHsl()
@@ -53,7 +42,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToLab()
@@ -63,7 +51,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToLch()
@@ -73,7 +60,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToRgb()
@@ -83,7 +69,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToXyz()
@@ -93,7 +78,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToYxy()
@@ -103,7 +87,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToLuv()
@@ -113,7 +96,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToHsv()
@@ -123,7 +105,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToHsb()
@@ -133,7 +114,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void WhiteRgbToHunterLab()
@@ -143,7 +123,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToCmy()
@@ -153,7 +132,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToCmyk()
@@ -163,7 +141,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToHsl()
@@ -173,7 +150,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToLab()
@@ -183,7 +159,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToLch()
@@ -193,7 +168,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToRgb()
@@ -203,7 +177,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToXyz()
@@ -213,7 +186,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToYxy()
@@ -223,7 +195,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToLuv()
@@ -233,7 +204,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToHsv()
@@ -243,7 +213,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToHsb()
@@ -253,7 +222,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BlackRgbToHunterLab()
@@ -263,7 +231,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToCmy()
@@ -273,7 +240,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToCmyk()
@@ -283,7 +249,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToHsl()
@@ -293,7 +258,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToLab()
@@ -303,7 +267,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToLch()
@@ -313,7 +276,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToRgb()
@@ -323,7 +285,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToXyz()
@@ -333,7 +294,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToYxy()
@@ -343,7 +303,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToLuv()
@@ -353,7 +312,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToHsv()
@@ -363,7 +321,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToHsb()
@@ -373,7 +330,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void GoldenrodRgbToHunterLab()
@@ -384,11 +340,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class CmyTestNet35
+#elif NET40
+	public class CmyTestNet40
 #else
 	public class CmyTest
 #endif
@@ -396,7 +353,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void SteelBlueCmyToCmy()
@@ -406,7 +362,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToCmyk()
@@ -416,7 +371,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToHsl()
@@ -426,7 +380,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToLab()
@@ -436,7 +389,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToLch()
@@ -446,7 +398,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToRgb()
@@ -456,7 +407,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToXyz()
@@ -466,7 +416,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToYxy()
@@ -476,7 +425,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SteelBlueCmyToLuv()
@@ -487,11 +435,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class CmykTestNet35
+#elif NET40
+	public class CmykTestNet40
 #else
 	public class CmykTest
 #endif
@@ -499,7 +448,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void DarkVioletCmykToCmy()
@@ -509,7 +457,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToCmyk()
@@ -519,7 +466,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToHsl()
@@ -529,7 +475,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToLab()
@@ -539,7 +484,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToLch()
@@ -549,7 +493,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToRgb()
@@ -559,7 +502,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToXyz()
@@ -569,7 +511,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void DarkVioletCmykToYxy()
@@ -580,11 +521,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class HslTestNet35
+#elif NET40
+	public class HslTestNet40
 #else
 	public class HslTest
 #endif
@@ -592,7 +534,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void AliceBlueHslToCmy()
@@ -602,7 +543,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToCmyk()
@@ -612,7 +552,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToHsl()
@@ -622,7 +561,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToLab()
@@ -632,7 +570,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToLch()
@@ -642,7 +579,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToRgb()
@@ -652,7 +588,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToXyz()
@@ -662,7 +597,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AliceBlueHslToYxy()
@@ -673,11 +607,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class LabTestNet35
+#elif NET40
+	public class LabTestNet40
 #else
 	public class LabTest
 #endif
@@ -685,7 +620,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void RedLabToCmy()
@@ -695,7 +629,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToCmyk()
@@ -705,7 +638,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToHsl()
@@ -715,7 +647,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToLab()
@@ -725,7 +656,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToLch()
@@ -735,7 +665,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToRgb()
@@ -745,7 +674,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToXyz()
@@ -755,7 +683,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RedLabToYxy()
@@ -766,11 +693,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class LchTestNet35
+#elif NET40
+	public class LchTestNet40
 #else
 	public class LchTest
 #endif
@@ -778,7 +706,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void MaroonLchToCmy()
@@ -788,7 +715,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToCmyk()
@@ -798,7 +724,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToHsl()
@@ -808,7 +733,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToLab()
@@ -818,7 +742,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToLch()
@@ -828,7 +751,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToRgb()
@@ -838,7 +760,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToXyz()
@@ -848,7 +769,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void MaroonLchToYxy()
@@ -859,11 +779,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class XyzTestNet35
+#elif NET40
+	public class XyzTestNet40
 #else
 	public class XyzTest
 #endif
@@ -871,7 +792,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void RivergumXyzToCmy()
@@ -881,7 +801,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToCmyk()
@@ -891,7 +810,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToHsl()
@@ -901,7 +819,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToLab()
@@ -911,7 +828,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToLch()
@@ -921,7 +837,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToRgb()
@@ -931,7 +846,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToXyz()
@@ -941,7 +855,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void RivergumXyzToYxy()
@@ -952,11 +865,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class LuvTestNet35
+#elif NET40
+	public class LuvTestNet40
 #else
 	public class LuvTest
 #endif
@@ -964,7 +878,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void SilverLuvToCmy()
@@ -974,7 +887,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToCmyk()
@@ -984,7 +896,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToHsl()
@@ -994,7 +905,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToLab()
@@ -1004,7 +914,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToLch()
@@ -1014,7 +923,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToRgb()
@@ -1024,7 +932,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToXyz()
@@ -1034,7 +941,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToYxy()
@@ -1044,7 +950,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void SilverLuvToLuv()
@@ -1055,11 +960,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class HsvTestNet35
+#elif NET40
+	public class HsvTestNet40
 #else
 	public class HsvTest
 #endif
@@ -1067,7 +973,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void AquamarineHsvToCmy()
@@ -1077,7 +982,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToCmyk()
@@ -1087,7 +991,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToHsl()
@@ -1097,7 +1000,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToLab()
@@ -1107,7 +1009,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToLch()
@@ -1117,7 +1018,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToRgb()
@@ -1127,7 +1027,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToXyz()
@@ -1137,7 +1036,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToYxy()
@@ -1147,7 +1045,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsvToLuv()
@@ -1158,11 +1055,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class HsbTestNet35
+#elif NET40
+	public class HsbTestNet40
 #else
 	public class HsbTest
 #endif
@@ -1170,7 +1068,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void AquamarineHsbToCmy()
@@ -1180,7 +1077,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToCmyk()
@@ -1190,7 +1086,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToHsl()
@@ -1200,7 +1095,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToLab()
@@ -1210,7 +1104,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToLch()
@@ -1220,7 +1113,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToRgb()
@@ -1230,7 +1122,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToXyz()
@@ -1240,7 +1131,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToYxy()
@@ -1250,7 +1140,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void AquamarineHsbToLuv()
@@ -1261,11 +1150,12 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
 #if NET35
 	public class HunterLabTestNet35
+#elif NET40
+	public class HunterLabTestNet40
 #else
 	public class HunterLabTest
 #endif
@@ -1273,7 +1163,6 @@ namespace ColorMine.Test.ColorSpaces
 		[TestClass]
         public class To : ColorSpaceTest
         {
-
 			
 			[TestMethod]
             public void BabyBlueHunterLabToRgb()
@@ -1283,7 +1172,6 @@ namespace ColorMine.Test.ColorSpaces
 
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
-
 			
 			[TestMethod]
             public void BabyBlueHunterLabToXyz()
@@ -1294,8 +1182,6 @@ namespace ColorMine.Test.ColorSpaces
                 ExpectedValuesForKnownColor(knownColor,expectedColor);
             }
 
-
         }
 	}
-
 }
