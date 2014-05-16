@@ -9,6 +9,8 @@ namespace ColorMine.Test.ColorSpaces.Comparisons
 	public class Cie1976ComparisonTestNet35
 #elif NET40
 	public class Cie1976ComparisonTestNet40
+#elif NET45
+	public class Cie1976ComparisonTestNet45
 #else
     public class Cie1976ComparisonTest
 #endif

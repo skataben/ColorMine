@@ -8,6 +8,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class RgbTestNet35
 #elif NET40
 	public class RgbTestNet40
+#elif NET45
+	public class RgbTestNet45
 #else
 	public class RgbTest
 #endif
@@ -346,6 +348,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class CmyTestNet35
 #elif NET40
 	public class CmyTestNet40
+#elif NET45
+	public class CmyTestNet45
 #else
 	public class CmyTest
 #endif
@@ -441,6 +445,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class CmykTestNet35
 #elif NET40
 	public class CmykTestNet40
+#elif NET45
+	public class CmykTestNet45
 #else
 	public class CmykTest
 #endif
@@ -527,6 +533,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class HslTestNet35
 #elif NET40
 	public class HslTestNet40
+#elif NET45
+	public class HslTestNet45
 #else
 	public class HslTest
 #endif
@@ -613,6 +621,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class LabTestNet35
 #elif NET40
 	public class LabTestNet40
+#elif NET45
+	public class LabTestNet45
 #else
 	public class LabTest
 #endif
@@ -699,6 +709,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class LchTestNet35
 #elif NET40
 	public class LchTestNet40
+#elif NET45
+	public class LchTestNet45
 #else
 	public class LchTest
 #endif
@@ -785,6 +797,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class XyzTestNet35
 #elif NET40
 	public class XyzTestNet40
+#elif NET45
+	public class XyzTestNet45
 #else
 	public class XyzTest
 #endif
@@ -871,6 +885,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class LuvTestNet35
 #elif NET40
 	public class LuvTestNet40
+#elif NET45
+	public class LuvTestNet45
 #else
 	public class LuvTest
 #endif
@@ -966,6 +982,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class HsvTestNet35
 #elif NET40
 	public class HsvTestNet40
+#elif NET45
+	public class HsvTestNet45
 #else
 	public class HsvTest
 #endif
@@ -1061,6 +1079,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class HsbTestNet35
 #elif NET40
 	public class HsbTestNet40
+#elif NET45
+	public class HsbTestNet45
 #else
 	public class HsbTest
 #endif
@@ -1156,6 +1176,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class HunterLabTestNet35
 #elif NET40
 	public class HunterLabTestNet40
+#elif NET45
+	public class HunterLabTestNet45
 #else
 	public class HunterLabTest
 #endif

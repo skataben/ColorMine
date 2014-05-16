@@ -23,6 +23,8 @@ namespace ColorMine.Test.ColorSpaces
 	public class <#= fromName #>TestNet35
 #elif NET40
 	public class <#= fromName #>TestNet40
+#elif NET45
+	public class <#= fromName #>TestNet45
 #else
 	public class <#= fromName #>Test
 #endif

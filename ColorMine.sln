@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMine.net40", "ColorMin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMine.net40.Test", "ColorMine.net40.Test\ColorMine.net40.Test.csproj", "{07B3DE19-BD81-46CF-BF4E-CD9BE8C09832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMine.net45", "ColorMine.net45\ColorMine.net45.csproj", "{91D9E4EA-E46E-4D86-B0A5-4CDD98AD7E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMine.net45.Test", "ColorMine.net45.Test\ColorMine.net45.Test.csproj", "{D5BCD1C2-FDEB-4B35-9606-AC7F4B9D66A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{07B3DE19-BD81-46CF-BF4E-CD9BE8C09832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B3DE19-BD81-46CF-BF4E-CD9BE8C09832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B3DE19-BD81-46CF-BF4E-CD9BE8C09832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D9E4EA-E46E-4D86-B0A5-4CDD98AD7E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D9E4EA-E46E-4D86-B0A5-4CDD98AD7E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D9E4EA-E46E-4D86-B0A5-4CDD98AD7E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D9E4EA-E46E-4D86-B0A5-4CDD98AD7E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BCD1C2-FDEB-4B35-9606-AC7F4B9D66A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BCD1C2-FDEB-4B35-9606-AC7F4B9D66A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BCD1C2-FDEB-4B35-9606-AC7F4B9D66A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BCD1C2-FDEB-4B35-9606-AC7F4B9D66A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
