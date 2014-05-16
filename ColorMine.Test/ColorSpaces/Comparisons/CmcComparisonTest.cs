@@ -5,7 +5,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ColorMine.Test.ColorSpaces.Comparisons
 {
+#if NET35
+	public class CmcComparisonTestNet35
+#else
     public class CmcComparisonTest
+#endif
     {
         [TestClass]
         public class Compare

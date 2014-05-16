@@ -20,7 +20,11 @@ namespace ColorMine.Test.ColorSpaces
 {
 
 <# foreach (XmlNode fromSpace in colors) { var fromName = fromSpace.Name; #>
+#if NET35
+	public class <#= fromName #>TestNet35
+#else
 	public class <#= fromName #>Test
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest

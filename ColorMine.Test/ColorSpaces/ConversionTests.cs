@@ -14,8 +14,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ColorMine.Test.ColorSpaces
 {
 
-
+#if NET35
+	public class RgbTestNet35
+#else
 	public class RgbTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -384,8 +387,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class CmyTestNet35
+#else
 	public class CmyTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -484,8 +490,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class CmykTestNet35
+#else
 	public class CmykTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -574,8 +583,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class HslTestNet35
+#else
 	public class HslTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -664,8 +676,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class LabTestNet35
+#else
 	public class LabTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -754,8 +769,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class LchTestNet35
+#else
 	public class LchTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -844,8 +862,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class XyzTestNet35
+#else
 	public class XyzTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -934,8 +955,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class LuvTestNet35
+#else
 	public class LuvTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -1034,8 +1058,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class HsvTestNet35
+#else
 	public class HsvTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -1134,8 +1161,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class HsbTestNet35
+#else
 	public class HsbTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
@@ -1234,8 +1264,11 @@ namespace ColorMine.Test.ColorSpaces
 
         }
 	}
-
+#if NET35
+	public class HunterLabTestNet35
+#else
 	public class HunterLabTest
+#endif
     {
 		[TestClass]
         public class To : ColorSpaceTest
