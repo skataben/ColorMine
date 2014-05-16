@@ -45,6 +45,8 @@ Fixed CIE2000 calculations</releaseNotes>
         <tags>color delta-e rgb to lab</tags>
     </metadata>
     <files>
-        <file src="bin\Release\ColorMine.dll" target="lib\ColorMine.dll" />
+        <!-- Ideally, there would be a ColorMine.netXXX entry here for each framework build. -->
+        <file src="ColorMine\bin\Release\ColorMine.dll" target="lib\net40\ColorMine.dll" />
+        <file src="ColorMine.net35\bin\Release\ColorMine.dll" target="lib\net35\ColorMine.dll" />
     </files>
 </package>
